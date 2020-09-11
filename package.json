@@ -1,0 +1,49 @@
+{
+  "name": "react-node-graphql-shopify",
+  "version": "1.0.0",
+  "description": "A shopify app developed using ReactJS, NodeJS and GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guhandelta/NextJS-NodeJS-GraphQL-Shopify-App.git"
+  },
+  "keywords": [
+    "Shopify",
+    "NextJS",
+    "ReactJS",
+    "NodeJS",
+    "GraphQL",
+    "E-commerce"
+  ],
+  "author": "Guhaprasaanth Nandagopal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guhandelta/NextJS-NodeJS-GraphQL-Shopify-App/issues"
+  },
+  "homepage": "https://github.com/guhandelta/NextJS-NodeJS-GraphQL-Shopify-App#readme",
+  "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "@shopify/app-bridge-react": "^1.26.2",
+    "@shopify/koa-shopify-auth": "^3.1.66",
+    "@shopify/koa-shopify-graphql-proxy": "^4.0.1",
+    "@shopify/polaris": "^5.2.1",
+    "apollo-boost": "^0.4.9",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
+    "koa": "^2.13.0",
+    "koa-session": "^6.0.0",
+    "next": "^9.5.2",
+    "react": "^16.13.1",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^16.13.1",
+    "store-js": "^2.0.4"
+  }
+}
