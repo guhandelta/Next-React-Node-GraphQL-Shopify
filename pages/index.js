@@ -1,9 +1,18 @@
+import { EmptyState, Layout, Page } from '@shopify/polaris'
 
-const index = () => {
+function index() {
     return (
-        <div>
-            <h1>Testing Page!......</h1>
-        </div>
+        <Page>
+            <Layout>
+                <EmptyState
+                    heading="Manage your inventory transfers"
+                    action={{ content: 'Select Products' }}
+                    image="https://cdn.shopify.com/s/files/1/0757/9955/files/empty-state.svg"
+                >
+                    <p>Select products</p>
+                </EmptyState>
+            </Layout>
+        </Page>
     )
 }
 
