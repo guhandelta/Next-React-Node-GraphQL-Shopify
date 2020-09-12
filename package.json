@@ -29,7 +29,7 @@
   "homepage": "https://github.com/guhandelta/NextJS-NodeJS-GraphQL-Shopify-App#readme",
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
-    "@shopify/app-bridge-react": "^1.26.2",
+    "@shopify/app-bridge-react": "^1.27.2",
     "@shopify/koa-shopify-auth": "^3.1.66",
     "@shopify/koa-shopify-graphql-proxy": "^4.0.1",
     "@shopify/polaris": "^5.2.1",

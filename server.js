@@ -31,8 +31,14 @@ app.prepare().then(() => {
                 'write_script_tags',
             ],
             afterAuth(ctx) {
-                const { shop, accessToken } = ctx.session;
-
+                const { shop, accessToken } = ctx.session;// shop -> shop URL
+                // setting up cookies for context object
+                // These parameters are mandatory, as this app will be displayed within an iframe in the Shopify admin page, browsers-
+                //- like Chrome will thow lots of errors in the console, as Chrome requires these parameters to be mentioned in the app
+                ctx.cookies.set('shopOrigin', shop, { httpOnly: false });
+                //     ,
+                // secure: true,
+                //     sameSite: 'none'
                 ctx.redirect('/');
             },
         }),
